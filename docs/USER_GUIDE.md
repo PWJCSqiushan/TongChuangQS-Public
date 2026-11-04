@@ -2,7 +2,7 @@
 
 ## 首次启动
 
-先按[构建与运行](BUILD_AND_RUN.md)编译，然后在仓库根目录运行 [`.\StartQS.cmd`](../StartQS.cmd) 或 [`.\StartConsoleQS.cmd`](../StartConsoleQS.cmd)。启动器固定使用根目录 `data`，不转发额外数据目录参数。若要指定新目录，请直接运行程序，例如：
+先按[构建与运行](BUILD_AND_RUN.md)编译，然后在仓库根目录运行 [`.\StartQS.cmd`](../StartQS.cmd) 或 [`.\StartConsoleQS.cmd`](../StartConsoleQS.cmd)。这两个启动器默认传入根目录 `data`，并转发额外命令行参数。若要明确指定独立数据目录，可以直接运行程序，例如：
 
 ```powershell
 .\runtime\TongChuangQS.exe --data '.\demo-data'
