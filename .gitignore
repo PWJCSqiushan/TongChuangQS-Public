@@ -1,0 +1,18 @@
+# Local-only runtime, personal data, build products and original documents.
+/runtime*/
+/data/
+/build*/
+/.cache/
+/.vs/
+/源码/
+/整理记录/
+*.zip
+*.pdf
+*.doc
+*.docx
+*.log
+*.pdb
+*.obj
+*.user
+.env*
+__pycache__/

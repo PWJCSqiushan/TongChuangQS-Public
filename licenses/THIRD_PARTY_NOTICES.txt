@@ -1,0 +1,46 @@
+TongChuangQS portable distribution — third-party software notices
+
+Qt 6.8.3
+Copyright (C) The Qt Company Ltd. and other contributors.
+Qt Core, Gui, Widgets and the deployed Qt plugins are dynamically linked.
+The Qt libraries are supplied under GNU LGPL version 3. Full LGPL-3.0 and
+GPL-3.0 license texts are included in Qt-6.8.3/. Alternative licenses stated
+in the upstream metadata are preserved in the component attribution map;
+this distribution uses the LGPL branch for Qt runtime libraries.
+
+Users may replace the Qt DLLs/plugins in runtime/ with an interface-compatible
+modified version. Close the program first and preserve the directory layout.
+Reverse engineering for debugging modifications of those libraries is allowed.
+This package does not impose a restriction on that right. No signing key,
+device lock or administrator installation is required for DLL replacement.
+The corresponding TongChuangQS application source ZIP accompanies this package.
+
+Qt 6.8.3 source:
+  https://github.com/qt/qtbase/tree/v6.8.3
+  https://download.qt.io/archive/qt/6.8/6.8.3/submodules/
+The official qtbase v6.8.3 tag resolves to
+  c07c2d5a527a644d36e7853d55132ae38921682f
+The deployed SDK's version resources and digital signatures are recorded in
+the packaging evidence. Qt text licenses were fetched from that exact source
+commit. Qt runtime component attributions are derived from its installed
+qtbase-6.8.3.spdx.json and emitted as QT_THIRD_PARTY_ATTRIBUTIONS.txt and
+QT_RUNTIME_ATTRIBUTION_MAP.json during packaging. Checksum differences between
+an installed SDK's SBOM and its signed DLLs are explicitly reported in that map.
+
+nlohmann/json
+Copyright and MIT license are preserved in nlohmann-json-MIT.txt. This is a
+header-only dependency compiled into the application, independent of Qt.
+
+Microsoft Visual C++ runtime
+Copyright (C) Microsoft Corporation. The application-local x64 runtime files
+are copied without modification from the installed Visual Studio 2022
+VC\Redist\MSVC\<version>\x64\Microsoft.VC143.CRT directory. The full Visual
+Studio 2022 Community terms and relevant Distributable Code list section are
+included as separate Microsoft-VS2022-*.txt files. The original Microsoft URLs
+and downloaded source-document hashes are recorded in Microsoft-provenance.json.
+No Visual Studio IDE, compiler, debug_nonredist DLLs or installer is included.
+
+Windows operating-system libraries
+The package relies on Windows 10/11 x64 system libraries and API sets. They
+are provided by Windows and are not copied into this distribution. Local
+dependency and execution checks do not replace tests on another physical PC.

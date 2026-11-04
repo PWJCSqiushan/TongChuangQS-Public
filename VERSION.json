@@ -1,0 +1,10 @@
+{
+  "archive_date": "2026-11-04",
+  "source_origin_commit": "c762ec93aee90ee8bfec2916eb2a6706663e19a7",
+  "source_changes": "A later comment simplification is preserved; no functional changes.",
+  "executables": {
+    "TongChuangQS.exe": "8c40f9a6e447e28e8ff053b3a8e147a825a754a91df72b2126868f0a5e4adfb1",
+    "SocialQS.exe": "81579182ecf8964429666c0452b0672d17438b360fe18af95249126d3f02e0b4"
+  },
+  "binary_distribution": "Not included in the public source repository."
+}

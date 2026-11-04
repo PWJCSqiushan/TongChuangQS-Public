@@ -1,0 +1,30 @@
+{
+  "sources": [
+    {
+      "url": "https://visualstudio.microsoft.com/license-terms/vs2022-ga-community/",
+      "original_document_url": "https://visualstudio.microsoft.com/wp-content/uploads/2021/11/Visual-Studio-2022-Community-License-EN.docx",
+      "sha256": "41a207b10c8ab91d0d2f10a854715f73dca54509581692d2fe179aa3ffcb8540",
+      "saved_evidence": "Visual-Studio-2022-Community-License-EN.docx"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/visualstudio/releases/2022/redistribution",
+      "sha256": "6ad3b456b82c2eba27b16780319293f1fa72bc64dcff1288a077ed82a2d3f448",
+      "saved_evidence": "Microsoft-VS2022-Redistribution.html"
+    }
+  ],
+  "derived_files": [
+    {
+      "file": "Microsoft-VS2022-Community-license.txt",
+      "sha256": "497f355fefcb79402e333b7ca8b7a476e0abb24c7fee1ef0aa42c465bb75a526"
+    },
+    {
+      "file": "Microsoft-VS2022-CRT-distributable-list.txt",
+      "sha256": "e1e71b33e4b26d01658edde1a3920247a031a502cdbcad46642e9e972b170588"
+    },
+    {
+      "file": "Microsoft-VS2022-Redist-index.txt",
+      "sha256": "da53b097e02b08e0fc69706102a60bc384fe756426ae4dc4a855e96f95cb2b9c"
+    }
+  ],
+  "scope": "Text and source attribution only; runtime files must be copied unmodified from the licensed VS2022 x64 Redist directory."
+}
