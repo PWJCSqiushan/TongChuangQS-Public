@@ -150,13 +150,13 @@ cd TongChuangQS-Public
 
 ```mermaid
 flowchart TB
-    UI["Qt Widgets GUI / 控制台"] --> P["PlatformQS 平台协调"]
-    P --> R["ServiceRegistryQS 服务注册"]
-    R --> S["QQ · 微信 · 微博 · 微商"]
-    P --> B["ServiceBusQS 请求 / 回复"]
+    UI["Qt Widgets GUI<br/>控制台"] --> P["PlatformQS<br/>平台协调"]
+    P --> R["ServiceRegistryQS<br/>服务注册"]
+    R --> S["QQ · 微信<br/>微博 · 微商"]
+    P --> B["ServiceBusQS<br/>请求 / 回复"]
     B --> S
-    S --> D["JSON 快照 · 文件锁 · 修订号"]
-    UI --> C["ChatNodeQS 聊天节点"]
+    S --> D["JSON 快照<br/>文件锁 · 修订号"]
+    UI --> C["ChatNodeQS<br/>聊天节点"]
     C <-->|"TCP 分帧 / 消息与 ACK"| PEER["另一客户端节点"]
 ```
 
